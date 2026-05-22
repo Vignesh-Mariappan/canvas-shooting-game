@@ -242,8 +242,10 @@ function animate() {
       cancelAnimationFrame(animationId);
 
       // update the score and show the modal on game end
-      modalScoreEl.textContent = score;
-      modalEl.style.display = 'flex';
+      setTimeout(() => {
+        modalScoreEl.textContent = score;
+        modalEl.style.display = 'flex';
+      }, 0);
     }
 
     // loop through projectiles to detect the collision
