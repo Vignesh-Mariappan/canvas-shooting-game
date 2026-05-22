@@ -4,15 +4,14 @@
   "description": "Shooting game to shoot the enemies approaching the player built using Canvas",
   "license": "ISC",
   "author": "Vignesh Mariappan",
-  "main": "index.html",
   "scripts": {
-    "start": "serve"
+    "start": "serve ."
   },
   "keywords": [
     "html",
     "css"
   ],
-  "dependencies": {
+  "devDependencies": {
     "serve": "^14.2.0"
   }
 }
